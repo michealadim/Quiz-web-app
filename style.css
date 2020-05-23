@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* Mobile view*/
+header {
+    text-align: center;
+    border: 1px solid red;
+    background-color: #00ffff;
+    color: #ffffff;
+    width: 100%;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 1em;
+}
+header a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: gray;
+    border-radius: 1em;
+    line-height: 100%;
+    text-decoration: none;
+    padding: 0.8em 2em; 
+    transition: all 1s;
+
+}
+header a:active{
+    padding: 1.3em 3em; 
+}
+header a:hover{
+    background-color: rgb(61, 71, 83);
+
+}
+.main{
+    background-color: gray;
+    height: 90vh;
+    background-color: gray;
+    padding-top: 1em;
+    width: 100%;
+}
+footer {
+    background-color: aqua;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0em;
+    border: 1px solid red;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#welcome{
+    text-align: center;
+}
+#card-container{
+   text-align: center;
+   height:80vh;
+ 
+}
+#card{
+    display: inline-block;
+    background-color: rgb(189, 197, 204);
+    height: 70vh;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+    }
+
+    #questions p {
+        padding: auto;
+        font-weight: bold;
+        font-size: 1em;
+        margin-top: 2em;
+    }
+
+    .ModeDark{
+        background-color:black;
+    }
+    #options a {
+        display: block;
+        color: #ffffff;
+        background-color: gray;
+        border-radius: 1em;
+        line-height: 100%;
+        text-decoration: none;
+        padding: 0.8em 1em; 
+        margin: 0em 3.5em 2em 3.5em;
+    }
+
+    .submit {
+        display: inline-block;
+        background-color:aqua;
+        border-radius: 1em;
+        line-height: 100%;
+        padding: 0.8em 2em; 
+        transition: all 1s;
+    
+    }
+    .submit a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .submit:active{
+        padding: 1.3em 3em; 
+    }
+    .submit:hover{
+        background-color: rgb(61, 71, 83);
+    
+    }
+    
+    .btn{
+    background-color: red;
+    color: white;
+    }
+
+    #options .correct:active{
+        background-color: green;
+    }
+    #options .incorrect:active{
+        background-color: red;
+    }
